@@ -1,5 +1,5 @@
 # microservices_project
-prueba de microservicios:
+prueba de microservicios:<p></p>
   1.Abrir una terminal.
   2.Dirigirse a la carpeta series(cd series)
   3.Iniciar containers con mongodb y mongoexpress(docker compose up)
