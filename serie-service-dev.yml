@@ -1,8 +1,4 @@
 server:
-  ssl:
-    key-store: classpath:keystore.jks
-    key-store-password: password
-    key-password: password
   port: 8082
   
 spring:
