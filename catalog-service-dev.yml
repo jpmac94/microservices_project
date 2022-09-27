@@ -7,3 +7,12 @@ spring:
     client:
       service-url:
         defaultZone: http://localhost:8761/eureka
+
+  data:
+    mongodb:
+      authentication-database: admin
+      username: rootuser
+      password: rootpass
+      database: catalogs
+      port: 27017
+      host: localhost  
