@@ -5,7 +5,7 @@ spring:
   eureka:
     client:
       service-url:
-        defaultZone: http://eureka:8761/eureka
+        defaultZone: http://{eureka|localhost}:8761/eureka
   data:
     mongodb:
       authentication-database: admin
@@ -13,6 +13,6 @@ spring:
       password: rootpass
       database: series
       port: 27017
-      host: mongodb    
+      host: {mongodb|localhost}    
         
     
