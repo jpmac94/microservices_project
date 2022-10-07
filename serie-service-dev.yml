@@ -13,6 +13,6 @@
       password: rootpass
       database: series
       port: 27017
-      host: localhost    
+      host: mongodb    
         
     
