@@ -2,10 +2,6 @@
 #  port: 8082
   
 spring:
-#  eureka:
-#    client:
-#      service-url:
-#        defaultZone: http://localhost:8761/eureka
   data:
     mongodb:
       authentication-database: admin
@@ -14,5 +10,6 @@ spring:
       database: series
       port: 27017
       host: mongodb    
+      
         
     
